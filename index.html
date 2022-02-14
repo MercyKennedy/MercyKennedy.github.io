@@ -42,6 +42,17 @@ div.one {
 	border-color: #87ceeb;
 	padding: 5%;
 	}
+	
+.imgbox {
+	display: grid;
+	height: 100%;
+	}
+	
+.center-fit {
+	max-width: 100%;
+	max-height: 100vh;
+	margin: auto;
+	}
 </style>
 
 <body>
@@ -75,9 +86,9 @@ div.one {
 <!-- Beach background image with name text -->
 <div class="w3-display-container" id="home">
 	<div class="w3-display-middle">
-	<span class="w3-center w3-padding-xxlarge w3-black w3-xxxlarge w3-wide">MERCY KENNEDY<span class="w3-hide-small"></span>
+	<span class=" imgbox w3-center w3-padding-xxlarge w3-black w3-xxxlarge w3-wide">MERCY KENNEDY<span class="w3-hide-small"></span>
 	</div>
-	<img src="beachBackground.jpg" alt="Beach Painting by Mercy Kennedy" width="1350" height="850"/>
+	<img class="center-fit" src="beachBackground.jpg" alt="Beach Painting by Mercy Kennedy" width="1350" height="850"/>
 </div>
 
 <!-- Bar divider -->
