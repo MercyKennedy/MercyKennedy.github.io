@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<head>
+<html lang="en">
+<title>MercyKennedy.github.io</title>
+<meta name="author" content="Mercy Kennedy">
+<meta name="keywords" content="work experience, skills, about me" />
+<meta charset="UTF-8">
+
+<!--Adjusts the content based on screen size-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Stylesheet references-->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<script src="https://kit.fontawesome.com/af0b4d909b.js" crossorigin="anonymous"></script>
+</head>
+
+<style>
+body,h2,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html{
+	height: 100%;
+	line-height: 1.8;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+h2 {
+	color: #87ceeb;
+}
+
+p.one {
+	text-indent: 5%
+	}
+
+div.one {
+	text-indent: 5%;
+	text-size: 12px;
+	border-style: solid;
+	border-width: medium;
+	border-radius: 5%;
+	border-color: #87ceeb;
+	padding: 5%;
+	}
+</style>
+
+<body>
+
+<!-- Navigation bar (sits at the top of the page) -->
+<div class = "w3-top w3-center">
+	<div class="w3-bar" id="myNavbar">
+		<a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+			<i class="fa fa-bars"></i>
+		</a>
+	<!-- When clicked, these buttons automatically scroll you to the corrosponding part of the page -->
+		<a href="#home" class="w3-bar-item w3-button"><i class="fa-solid fa-house"></i><b>&nbsp HOME</a>
+		<a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa-solid fa-user-astronaut"></i>&nbsp ABOUT</a>
+		<a href="#education" class="w3-bar-item w3-button w3-hide-small"><i class="fa-solid fa-graduation-cap "></i>&nbsp EDUCATION</a>
+		<a href="#experience" class="w3-bar-item w3-button w3-hide-small"><i class="fa-solid fa-book "></i>&nbsp EXPERIENCE</a>
+		<a href="#extras" class="w3-bar-item w3-button w3-hide-small"><i class="fa-solid fa-glasses "></i>&nbsp EXTRAS</a>
+		<a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa-solid fa-address-card"></i>&nbsp CONTACT</a>
+	</div>
+	
+<!-- Navigation bar (for small screens) -->
+	<div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+		<a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa-solid fa-user-astronaut"></i>&nbsp ABOUT</a>
+		<a href="#education" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa-solid fa-graduation-cap "></i>&nbsp EDUCATION</a>
+		<a href="#experience" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa-solid fa-book "></i>&nbsp EXPERIENCE</a>
+		<a href="#extras" class="w3-bar-item w3-button"><i class="fa-solid fa-glasses "></i>&nbsp EXTRAS</a>
+		<a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa-solid fa-address-card"></i>&nbsp CONTACT</b></a>
+	</div>
+	
+</div>
+
+<!-- Beach background image with name text -->
+<div class="w3-display-container" id="home">
+	<div class="w3-display-middle">
+	<span class="w3-center w3-padding-xxlarge w3-black w3-xxxlarge w3-wide">MERCY KENNEDY<span class="w3-hide-small"></span>
+	</div>
+	<img src="C:\Users\mercy\OneDrive\Documents\HTML Stuff\KennedyWebsite\beachBackground.jpg" alt="Beach Painting by Mercy Kennedy" width="1350" height="850"/>
+</div>
+
+<!-- Bar divider -->
+<div class="w3-row w3-light-blue w3-padding-16"></div>
+
+<!-- Container (About Section) -->
+<div class="w3-pale-green">
+<div class="w3-content w3-container w3-padding-16" id="about">
+  <h2 class="w3-center"><b>ABOUT ME</b></h2>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="C:\Users\mercy\OneDrive\Documents\HTML Stuff\KennedyWebsite\myPortrait2.jpg" class="w3-circle w3-image" alt="Photo of Me">
+    </div>
+
+    <div class="one w3-col m6 w3-padding-large">
+      <h6><b><em>Welcome to my website!</em> I'm a recent graduate of Gogebic Community College in Ironwood, Mi looking to kickstart my career. I've always had a knack for computers
+		but only decided to get serious about technology two years ago when I enrolled in programming courses at GCC. I've since discovered how much I love programming and I
+		am eager to continue learning as much as I can about it. <br></h6>
+
+		<h6>In school I particularly enjoyed JavaScript and PHP. In the future I would love to explore web design and
+		mobile app development. In my free time I like to find other ways to be creative like through cooking or painting. (For example, I painted the beach scene shown at the top
+		of the page). Read on to learn more about my education and my work experience.</b></h6>
+		</div>
+    </div>
+  </div>
+  </div>
+  </div>
+<!-- Bar divider -->
+<div class="w3-row w3-light-blue w3-padding-16"></div>
+  
+<!-- Container (Education Section) -->
+<div class="w3-pale-blue">
+<div class="w3-content w3-container w3-padding-16" id="education">
+<h2 class="w3-center"><b>EDUCATION</b></h2>
+<h4><b>ASSOCIATE OF APPLIED SCIENCE - COMPUTER PROGRAMMING</b></h4>
+<h5>GOGEBIC COMMUNITY COLLEGE - <em>DECEMBER 2021</em></h5>
+<p>My education included many courses that are fundamental to my career in information 
+technology such as HTML, JavaScript, Java, C++, PHP, Microsoft Office, Windows Networking, 
+Windows Active Directory, Marketing, and Business Communications. My career GPA was <b>3.9</b>, and I was on 
+the dean’s list for five semesters, the entirety of my enrollment at Gogebic Community College.</p>
+<br></br>
+<h4><b>CERTIFICATE - COMPUTER REPAIR</b></h4>
+<h5>GOGEBIC COMMUNITY COLLEGE - <em>MAY 2021</em></h5>
+<p>This certificate covered tasks relating to Windows operating systems such as PC hardware and 
+software, basic networking devices, and security features, most of which were completed via 
+simulation. This course also included hands on repair to iPhones, iPads, laptops, and PC’s. </p>
+</div>
+</div>
+
+
+<!-- Bar divider -->
+<div class="w3-row w3-light-blue w3-padding-16"></div>
+
+<!-- Container (Experience Section) -->
+<div class="w3-pale-green">
+<div class="w3-content w3-container w3-padding-16" id="experience">
+<h2 class="w3-center"><b>EXPERIENCE</b></h2>
+<h4><b>GALLERY ATTENDANT, DOWNTOWN ART PLACE</b></h4>
+<h5><em>IRONWOOD, MI.&nbsp &nbsp SEPTEMBER 2019 - PRESENT</em></h5>
+<p>Responsibilities include:
+<p><ul style="list-style-type:circle">
+<li>Independently maintaining a database of upwards of 1,000 products</li>
+<li>Completing reports of all monetary exchanges for the day</li>
+<li>Maintaining gallery cleanliness</li>
+<li>Addressing the needs of customers in a pleasant and efficient manner</li>
+</div>
+</div>
+
+<!-- Bar divider -->
+<div class="w3-row w3-light-blue w3-padding-16"></div>
+
+<!-- Container (Extras Section) -->
+<div class="w3-pale-blue">
+<div class="w3-content w3-container w3-padding-16" id="extras">
+<h2 class="w3-center"><b>EXTRAS</b></h2>
+<div class="w3-row">
+    <div class="w3-col m6 w3-left w3-padding-large">
+<h4><b>SKILLS</b></h4>
+<p><ul style="list-style-type:circle">
+<li>Efficiently identifies and resolves problems.</li>
+<li>Ability to research new concepts and apply knowledge to new challenges.</li>
+<li>Excellent written and communication skills.</li>
+<li>Proficient in Microsoft Office.</li>
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+	<h4><b>WHAT I LIKE THE MOST</b></h4>
+<p><ul style="list-style-type:circle">
+<li>HTML/CSS</li>
+<li>JavaScript</li>
+<li>PHP</li>
+<li>Graphic Design</li>
+<li>Marketing</li>
+    </div>
+	
+<div class="w3-col m6 w3-padding-large">
+	<h4><b>OTHER PROJECTS</b></h4>
+	<p><em><b>Digital marketing for Sonoma Lavender</b></em></p>
+	<p> Responsibilities included: </p>
+		<p><ul style="list-style-type:circle">
+		<li>Extensive research about Sonoma Lavender's products and their target audience.</li>
+		<li>Multiple presentations using Microsoft PowerPoint and Adobe Spark.</li>
+		<li>Communicating and collaborating with team members remotely via Zoom and Google Docs.</li>
+		<li>Logo and Advertisement design</li>
+		<p class="one">Ultimately, our team was able to help Sonoma Lavender better utilize their Instagram account to engage with their target audience more and reach a more diverse group of people.<p>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Bar divider -->
+<div class="w3-row w3-light-blue w3-padding-16"></div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-pale-green">
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h4 class="w3-center"><b>HEY!</b></h4>
+  <p class="w3-center">Thank's for reading! I'd love to hear your feedback:</p>
+ 
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i><span title="Click here to shoot me a message!"><a href ="mailto:mercygkennedy@outlook.com"><b>mercygkennedy@outlook.com<br></a></span>
+		<i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>(906) 364-1157<br>
+		<i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Ironwood, Mi</b><br>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Bar divider -->
+<div class="w3-row w3-light-blue w3-padding-16"></div>
+
+<!-- Footer -->
+<footer class="w3-center">
+	<div class="w3-display-container">
+	<div class="w3-display-middle">
+	<span><a href="#home" class="w3-button w3-light-gray"><i class="fa fa-arrow-up w3-margin-right"></i>Back to the top!</a></span>
+	</div>
+	<img src="C:\Users\mercy\OneDrive\Documents\HTML Stuff\KennedyWebsite\beachCut.png" alt="Beach Painting by Mercy Kennedy" width="1500" height="250"/>
+</div>
+</footer>
+ 
+<script>
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
